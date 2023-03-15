@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/banner.jpg" width = "2000" height="600"/>
+<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/banner.jpg" width = "2000" height="300"/>
 </p>
 <div style="text-align: right"> Christina Carty, Nikola Vracevic </div>
 <div style="text-align: right">Practice Software Development</div>
