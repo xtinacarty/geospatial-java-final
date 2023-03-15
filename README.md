@@ -1,12 +1,10 @@
-# geospatial-java-final
-Final project for Practice: Software Development  (Java) course
 
 
-Christina Carty, Nikola Vracevic
-Practice Software Development
-17 February 2023
+<div style="text-align: right"> Christina Carty, Nikola Vracevic </div>
+<div style="text-align: right">Practice Software Development</div>
+<div style="text-align: right">17 February 2023</div>
 
-# SWE Final Project Documentation
+# Google Earth Tweets Visualization & WMS Connection Final Project
 
 ## 1. Project Goals
   This program aimed to visualize both a set of tweets and their associated geospatial data, as well as a map layer from a WMS, all using object-oriented programming methods in Java. The goals of this project centered around a set of processes, with the result of each process serving as a requirement for the success of the subsequent. In this project, we have defined these processes as; 1. Connecting to a WMS Server and requesting map image, 2. Parsing a CSV containing the relevant tweet data, and 3. Creating the associated KML file. The task of creating a KML file containing the CSV and Map data was extended to include, stylized time series visualization of the CSV data.
@@ -46,5 +44,6 @@ Finally, in order for the newly created lists to be accessible by the other clas
 
 The result is a series of extruding lines that can be visualized by their time of creation via the slider in the top left corner. The WMS Image item is additionally seen on the right.
 
+![Screenshot of KML Output in Google Earth](Image Results/TweetsViz.jpg)
 
 Despite the relative success of our program in terms of achieving the task goals, there are several areas of improvement. Firstly, we believe that higher levels of modularity and general object-oriented programming ideals could have been achieved. For example, in the KMLWriter class, the entirety of the program exists in the main method, when really the only thing that needs to be “executed” is the google earth launcher. It likely would have made more sense to separate the KML file writing into separate methods or even a different class. Secondly, our work and research on this code came to show that manually adding dependencies into project build paths is generally bad practice, and  it is much cleaner and more efficient to use a dependency handler like Maven, especially with libraries like GeoTools which are so huge and can often cause problems when are manually implemented. Finally, KML is a quite powerful and flexible way to visualize geospatial data, and we recognize that it was not used to its full potential even within the scope of its program. A more ideal outcome would have taken fuller advantage of the different geometry styling options and visualization methods that KML has to offer.
