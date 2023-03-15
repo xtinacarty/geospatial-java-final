@@ -1,13 +1,13 @@
 
-<p align="center">
-<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/banner.jpg" width = "2000" height="450"/>
-</p>
+
 <div style="text-align: right"> Christina Carty, Nikola Vracevic </div>
 <div style="text-align: right">Practice Software Development</div>
 <div style="text-align: right">17 February 2023</div>
 
 # Google Earth Tweets Visualization & WMS Connection Final Project
-
+<p align="center">
+<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/banner.jpg" width = "2000" height="450"/>
+</p>
 ## 1. Project Goals
   This program aimed to visualize both a set of tweets and their associated geospatial data, as well as a map layer from a WMS, all using object-oriented programming methods in Java. The goals of this project centered around a set of processes, with the result of each process serving as a requirement for the success of the subsequent. In this project, we have defined these processes as; 1. Connecting to a WMS Server and requesting map image, 2. Parsing a CSV containing the relevant tweet data, and 3. Creating the associated KML file. The task of creating a KML file containing the CSV and Map data was extended to include, stylized time series visualization of the CSV data.
   In this documentation, we outline the preliminary setup and software requirements for our program, explain some of the design choices undertaken, dive into more detail about the programmatic implementation of each task, and summarize our results and observations about the program performance.
