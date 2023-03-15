@@ -44,10 +44,9 @@ Finally, in order for the newly created lists to be accessible by the other clas
 
 The result of the tweets visualization is a series of extruding lines that can be visualized by their time of creation via the slider in the top left corner of the below screen capture. 
 
-![Screenshot of tweet visualization output in Google Earth](https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/TweetsViz.jpg =250x250)
+<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/TweetsViz.jpg" width="450" height="450" />
 
 The WMS Layer was also successfully visualized as a part of the KML output.
-![Screenshot of WMS Layer visualization in Google Earth](https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/WMS.jpg =250x250)
-
+<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/WMS.jpg" width="450" height="450"/>
 
 Despite the relative success of our program in terms of achieving the task goals, there are several areas of improvement. Firstly, we believe that higher levels of modularity and general object-oriented programming ideals could have been achieved. For example, in the KMLWriter class, the entirety of the program exists in the main method, when really the only thing that needs to be “executed” is the google earth launcher. It likely would have made more sense to separate the KML file writing into separate methods or even a different class. Secondly, our work and research on this code came to show that manually adding dependencies into project build paths is generally bad practice, and  it is much cleaner and more efficient to use a dependency handler like Maven, especially with libraries like GeoTools which are so huge and can often cause problems when are manually implemented. Finally, KML is a quite powerful and flexible way to visualize geospatial data, and we recognize that it was not used to its full potential even within the scope of its program. A more ideal outcome would have taken fuller advantage of the different geometry styling options and visualization methods that KML has to offer.
