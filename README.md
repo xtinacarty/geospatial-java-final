@@ -1,12 +1,11 @@
 
-
+<p align="center">
+<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/banner.jpg" width = "2000" height="600"/>
+</p>
 <div style="text-align: right"> Christina Carty, Nikola Vracevic </div>
 <div style="text-align: right">Practice Software Development</div>
 <div style="text-align: right">17 February 2023</div>
 
-<p align="center">
-<img src="https://github.com/xtinacarty/geospatial-java-final/blob/main/Image%20Results/banner.jpg" width = "2000" height="850"/>
-</p>
 # Google Earth Tweets Visualization & WMS Connection Final Project
 
 ## 1. Project Goals
